@@ -18,14 +18,14 @@ body {
     padding-top: 50px;
 }
 
-.new_game_img {
+/* .new_game_img {
     margin: 0 auto;
     width: 160px;
     height: 90px;
 }
-
+*/
 .new_game_img > img {
-    width: 100%;
-    height: 100%;
+    /* width: 100%; */
+    height: 90px;
     border-radius: 15px;
 }
