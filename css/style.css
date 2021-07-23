@@ -17,6 +17,9 @@ h2 {
 .margin_title {
     padding-top: 20px;
 }
+.margin_small_sp {
+    padding-bottom: 80px;
+}
 
 .margin_small_section {
     padding-top: 45px;
@@ -35,8 +38,29 @@ h2 {
 }
 /* /Common */
 /* Header */
-.top_header_brand {
+
+.header_bottom .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 500;
+}
+
+.header_bottom .dropdown-toggle::after {
+    border: none;
+    content: url("../img/chevron-down-solid.svg");
+    display: inline-block;
+    width: 11px;
+    vertical-align: middle;
+}
+
+.header_top {
     background-color: #000;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_top > img {
+    height: 13px;
 }
 
 .btn_access {
@@ -44,6 +68,12 @@ h2 {
     padding: 8px 13px;
     border-radius: 20px;
     background-color: #363636;
+    margin-left: 20px;
+}
+
+.header_bottom .bi.bi-search {
+    padding-left: 20px;
+    font-size: 18px;
 }
 /* Main */
 /* Jumbo */
@@ -88,8 +118,13 @@ h2 {
 }
 
 .new_game_img {
-    padding-bottom: 20px;
+    padding: 3px;
+    border-radius: 20px;
 }
+
+.new_game_img:hover {
+    box-shadow: 0px 0px 0px 2px #0072ce;
+ }
 
 .new_game_img > img {
     border-radius: 15px;
@@ -124,13 +159,25 @@ h2 {
     opacity: 1;
 }
 
-.hover_select {
-    /* padding: 2px; */
-    outline: 2px solid #0072ce;
-}
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 576px) {
 .offset-sm-4 {
     margin-left: 0;
 }
 }
+
+/* @media (min-width: 992px) {
+.row-cols-lg-5>* {
+    flex: 0 0 auto;
+    width: 15%;
+}
+} */
