@@ -25,7 +25,9 @@ h3 {
 .padd_btm_medium {
     padding-bottom: 20px;
 }
-
+.padd_top_large {
+    padding-top: 40px;
+}
 .margin_small_sp {
     padding-bottom: 80px;
 }
@@ -175,15 +177,20 @@ header {
  }
 /* /Upcoming Games */
 .ps5_view {
-    margin-top: 100px;
+    margin-top: 80px;
+    padding-bottom: 40px;
 }
 
-.ps5_view > .container > .row >.col-12 > h6 {
+.ps5_view > .container > .row > div:first-child {
+    padding-bottom: 50px;
+}
+
+.ps5_view > .container > .row > .col-12 > h6 {
     color: #0072ce;
     margin-bottom: 0;
 }
 
-.ps5_view > .container > .row >.col-12 > p {
+.ps5_view > .container > .row > .col-12 > p {
     font-size: 21px;
 }
 
@@ -231,30 +238,70 @@ header {
     margin: 30px 0;
 }
 
+.bg_color_gray > .container > .row > div:first-child {
+    padding: 50px 0;
+}
+
+.bg_color_gray > .container > .row > .col-12 > p {
+    padding-top: 20px;
+}
+
 .plus_logo {
-    height: 80px;
+    width: 60%;
 }
 
 .btn_gg_transp {
     background: rgba(255,255,255,0.4);
 }
 
-@media (min-width: 576px) {
-.offset-sm-4 {
-    margin-left: 0;
+.new_sales_store > .container {
+    padding-bottom: 70px;
 }
+
+.social > .container > .row > .col-12 > h3 {
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #00439c;
+}
+
+
+
+
+@media (min-width: 576px) {
+    .offset-sm-4 {
+        margin-left: 0;
+    }
 }
 
 @media (max-width: 767px) {
     .media_none {
         display: none;
     }
-}
+}   
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
+    .bg_color_gray > .container > .align-items-center > div:first-child {
+        padding: 25px 0;
+    }
+
     .bg_color_gray > .container > .align-items-center {
         align-items: normal!important;
     }
+
+    .bg_color_gray > .container > .align-items-center > .col-12 > .plus_logo {
+        width: 60%;
+    }
+
+    .bg_color_dark_blue > .container > .row > div:first-child {
+        padding: 20px 0;
+    }
+
+    .bg_color_dark_blue > .container > .row > div:first-child > img {
+        width: 70%!important;
+    }
+
 }
 
 @media (max-width: 425px) {
@@ -264,5 +311,42 @@ header {
 
     .bg_color_dark_blue > .container > .row {
         padding: 30px 20px;
+    }
+
+    .ps5_view > .container > .row > .col-12 > h2 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    .jumbo_middle > .container > .row > .col-12 > h1 {
+        font-size: 24px;
+    }
+
+    .jumbo_middle > .container > .row > .col-sm-6 > p {
+        font-size: 12px;
+    }
+
+    .ps4_view > .container > .row > .col-12 > h2 {
+        font-size: 27px;
+        font-weight: 600;
+    }
+
+    .plus_logo {
+        width: 80%;
+    }
+
+    .new_sales_store > .container > .row > .col-12 > img {
+        margin-bottom: 25px;
+    }
+
+    .new_sales_store > .container > .row > .col-12 > h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .social > .container > .row > .col-12 > h3 {
+        font-size: 23px;
+        font-weight: 600;
+
     }
 }
