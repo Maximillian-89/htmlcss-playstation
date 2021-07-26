@@ -27,7 +27,7 @@ h3 {
 }
 
 .margin_title {
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .padd_btm {
@@ -37,6 +37,7 @@ h3 {
 .padd_btm_medium {
     padding-bottom: 20px;
 }
+
 .padd_top_large {
     padding-top: 40px;
 }
@@ -51,9 +52,11 @@ h3 {
 .btn_margin {
     margin-top: 10px;
 }
+
 .mrgn_btm_small {
     margin-bottom: 10px;
 }
+
 .radius_img {
     border-radius: 15px;
 }
@@ -382,13 +385,35 @@ footer > .container > .row > div:first-child > ul > li:first-child {
 }
 
 @media screen and (max-width: 425px) {
+    
+    p {
+        font-size: 13px!important;
+    }
+
+    .fs-5 {
+        font-size: 0.75rem!important;
+    }    
+
+    .btn_jumbo, .btn_blue {
+        padding: 6px 5px;
+    }
+
+    .btn_big {
+        padding: 6px 6px;
+    }
+
+    .btn_access {
+        margin-left: 0;
+    }
+
+    .header_bottom .bi.bi-search {
+        padding-left: 3px;
+        font-size: 18px;
+    }
+
     .bg_color_gray > .container > .align-items-center {
         padding: 25px 5px;
     }
-
-    /* .bg_color_dark_blue > .container > .row {
-        padding: 30px 20px;
-    } */
 
     .ps5_view > .container > .row > .col-12 > h2 {
         font-size: 28px;
@@ -426,16 +451,28 @@ footer > .container > .row > div:first-child > ul > li:first-child {
         padding-left: 10px;
     }
 
+    .social > .container > div:first-child {
+        padding-bottom: 60px;
+    }
+
     .social > .container > .row > .col-12 > h3 {
         font-size: 23px;
         font-weight: 600;
     }
-
+    
     .link_footer_first {
         margin-top: 40px;
     }
 
     .sie_logo {
-        height: 50px;
+        height: 40px;
+    }
+
+    footer > .container > div:last-child > .col-12 > p {
+        font-size: 8px;
+    }
+
+    .mrgn_btm_m {
+        margin-bottom: 20px;
     }
 }
