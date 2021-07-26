@@ -14,6 +14,14 @@ h3 {
     font-size: 32px;
 }
 
+.btn_trans:hover {
+    box-shadow: inset 0px 0px 0px 2px #000;
+}
+
+.btn_color_shadow {
+    box-shadow: inset 0px 0px 0px 2px #cd3d0f;
+}
+
 .margin_title {
     padding-top: 20px;
 }
@@ -141,7 +149,7 @@ header {
 }
 
 .btn_jumbo {
-    border: none;
+    border: 2px solid #cd3d0f;
     padding: 10px 20px;
     border-radius: 25px;
     margin-top: 10px;
@@ -174,7 +182,14 @@ header {
 
 .new_game_img:hover {
     box-shadow: 0px 0px 0px 2px #0072ce;
- }
+}
+
+.btn_blue {
+    border: 2px solid #0072ce;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
 /* /Upcoming Games */
 .ps5_view {
     margin-top: 80px;
@@ -240,6 +255,7 @@ header {
 
 .bg_color_gray > .container > .row > div:first-child {
     padding: 50px 0;
+    padding-left: 10px;
 }
 
 .bg_color_gray > .container > .row > .col-12 > p {
@@ -259,29 +275,67 @@ header {
 }
 
 .social > .container > .row > .col-12 > h3 {
-    padding-bottom: 50px;
+    padding: 50px 0;
+    font-size: 40px;
 }
 
+.social > .container > div:first-child  {
+    padding-bottom: 150px;
+}
+/* Footer */
 footer {
     background-color: #00439c;
 }
 
+footer > .container > div:first-child {
+    padding-top: 80px;
+    margin-bottom: 45px;
+}
+
+footer > .container > .row > .col-12 > ul {
+    list-style: none;
+}
+
+footer > .container > .row > .col-12 > ul > li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer > .container > .row > div:first-child > ul > li:first-child {
+    margin-bottom: 35px;
+}
+
+.language_selector {
+    width: 25px;
+    height: 25px;
+}
+
+.sie_logo {
+    height: 80px;
+}
+
+.footer_logo {
+    height: 80px;
+}
+
+.link_footer {
+
+}
 
 
-
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
     .offset-sm-4 {
         margin-left: 0;
     }
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .media_none {
         display: none;
     }
 }   
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .bg_color_gray > .container > .align-items-center > div:first-child {
         padding: 25px 0;
     }
@@ -302,16 +356,30 @@ footer {
         width: 70%!important;
     }
 
+    .link_footer {
+        margin-top: 40px;
+    }
+    
+    .sie_logo {
+        height: 60px;
+    }
+
+    footer > .container > .row > .col-12 > p {
+        font-size: 15px;
+        margin-top: 10px;
+        padding-bottom: 70px;
+}
+    }
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 425px) {
     .bg_color_gray > .container > .align-items-center {
         padding: 25px 5px;
     }
 
-    .bg_color_dark_blue > .container > .row {
+    /* .bg_color_dark_blue > .container > .row {
         padding: 30px 20px;
-    }
+    } */
 
     .ps5_view > .container > .row > .col-12 > h2 {
         font-size: 28px;
@@ -336,7 +404,7 @@ footer {
     }
 
     .new_sales_store > .container > .row > .col-12 > img {
-        margin-bottom: 25px;
+        margin-bottom: 30px;
     }
 
     .new_sales_store > .container > .row > .col-12 > h2 {
@@ -344,9 +412,21 @@ footer {
         font-weight: 600;
     }
 
+    .bg_color_dark_blue {
+        padding: 50px 0;
+        padding-left: 10px;
+    }
+
     .social > .container > .row > .col-12 > h3 {
         font-size: 23px;
         font-weight: 600;
+    }
 
+    .link_footer_first {
+        margin-top: 40px;
+    }
+
+    .sie_logo {
+        height: 50px;
     }
 }
