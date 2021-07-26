@@ -18,6 +18,10 @@ h3 {
     box-shadow: inset 0px 0px 0px 2px #000;
 }
 
+.btn_trans_w:hover {
+    box-shadow: inset 0px 0px 0px 2px #fff;
+}
+
 .btn_color_shadow {
     box-shadow: inset 0px 0px 0px 2px #cd3d0f;
 }
@@ -161,6 +165,11 @@ header {
     padding: 10px 15px;
 }
 
+.btn_border {
+    border: 2px solid #2d64e6;
+
+}
+
 .jumbo > .container-fluid > .row > .col-12 h1 {
     padding: 30px 0;
     font-size: 37px;
@@ -217,13 +226,13 @@ header {
     margin: 2px auto;
 }
 
-/* .first_sp:hover::after {
+.first_sp:hover::after {
     content: "";
     display: block;
     height: 2px;
     background-color: #0072ce;
     margin: 2px auto;
-} */
+}
 
 .img_opacity {
     opacity: 0.6;
@@ -311,7 +320,7 @@ footer > .container > .row > div:first-child > ul > li:first-child {
 }
 
 .sie_logo {
-    height: 80px;
+    height: 60px;
 }
 
 .footer_logo {
@@ -368,7 +377,7 @@ footer > .container > .row > div:first-child > ul > li:first-child {
         font-size: 15px;
         margin-top: 10px;
         padding-bottom: 70px;
-}
+
     }
 }
 
