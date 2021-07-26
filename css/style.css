@@ -329,10 +329,13 @@ footer > .container > .row > div:first-child > ul > li:first-child {
 .footer_logo {
     height: 80px;
 }
+/* /Footer */
 
-.link_footer {
 
-}
+
+
+
+
 
 
 @media screen and (min-width: 576px) {
@@ -348,6 +351,15 @@ footer > .container > .row > div:first-child > ul > li:first-child {
 }   
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    .btn_access {
+        margin-left: 0;
+    }
+
+    .header_bottom .bi.bi-search {
+        padding-left: 3px;
+        font-size: 18px;
+    }
+
     .bg_color_gray > .container > .align-items-center > div:first-child {
         padding: 25px 0;
     }
@@ -385,7 +397,6 @@ footer > .container > .row > div:first-child > ul > li:first-child {
 }
 
 @media screen and (max-width: 425px) {
-    
     p {
         font-size: 13px!important;
     }
