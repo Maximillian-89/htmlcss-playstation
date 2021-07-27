@@ -8,7 +8,7 @@ body {
 
 .new_game_img:hover {
     transform: translateY(-10px);
-    transition: 1s;
+    transition: 0.5s;
 }
 
 h2 {
@@ -195,7 +195,7 @@ header {
 .new_game_img {
     padding: 3px;
     border-radius: 20px;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .new_game_img:hover {
