@@ -6,6 +6,11 @@ body {
     margin-right: 33.33333333%;
 }
 
+.new_game_img:hover {
+    transform: translateY(-10px);
+    transition: 1s;
+}
+
 h2 {
     font-size: 40px;
 }
@@ -190,6 +195,7 @@ header {
 .new_game_img {
     padding: 3px;
     border-radius: 20px;
+    transition: 1s;
 }
 
 .new_game_img:hover {
