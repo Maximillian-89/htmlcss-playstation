@@ -11,6 +11,10 @@ body {
     transition: 0.3s;
 }
 
+.display_none {
+    display: none;
+}
+
 h2 {
     font-size: 40px;
 }
@@ -474,6 +478,10 @@ footer > .container > .row > .col-12.link_footer {
         font-size: 18px;
     }
 
+    .jumbo {
+        min-height: 818px;
+    }
+    
     .bg_color_gray > .container > .align-items-center > div:first-child {
         padding: 25px 0;
     }
@@ -537,6 +545,11 @@ footer > .container > .row > .col-12.link_footer {
     .media_none {
         display: none;
     }
+
+    .display_block {
+        display: inline-block;
+    }
+
 }   
 
 @media screen and (max-width: 425px) {
@@ -550,6 +563,14 @@ footer > .container > .row > .col-12.link_footer {
 
     .dropdown-item > .txt_bold_600 {
         font-size: 11px;
+    }
+    
+    .jumbo {
+        min-height: 0;
+    }
+
+    .banner_jumbo {
+        padding-top: 200px;
     }
 
     p {
