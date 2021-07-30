@@ -542,14 +542,13 @@ footer > .container > .row > .col-12.link_footer {
         padding-left: 10px;
     }
 
-    .media_none {
+    .media_none2 {
         display: none;
     }
 
     .display_block {
         display: inline-block;
     }
-
 }   
 
 @media screen and (max-width: 425px) {
