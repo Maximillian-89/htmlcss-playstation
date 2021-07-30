@@ -70,6 +70,10 @@ h3 {
     margin-bottom: 10px;
 }
 
+.mrgn_btm_s {
+    margin-bottom: 20px;
+}
+
 .radius_img {
     border-radius: 15px;
 }
@@ -612,6 +616,10 @@ footer > .container > .row > .col-12.link_footer {
         font-weight: 600;
     }
 
+    .new_sales_store > .container > .row > .col-12 {
+        margin-bottom: 20px;
+    }
+
     .bg_color_dark_blue {
         padding: 50px 0;
         padding-left: 10px;
@@ -625,7 +633,7 @@ footer > .container > .row > .col-12.link_footer {
         font-size: 23px;
         font-weight: 600;
     }
-    
+
     .link_footer_first {
         margin-top: 40px;
     }
@@ -638,9 +646,9 @@ footer > .container > .row > .col-12.link_footer {
         font-size: 8px;
     }
 
-    .mrgn_btm_m {
+    /* .mrgn_btm_m {
         margin-bottom: 20px;
-    }
+    } */
 }
 /* /Responsive */
 
