@@ -439,7 +439,7 @@ footer > .container > .row > .col-12 > ul > li > span > a {
 
 footer > .container > .row > .col-12.link_footer_first.link_footer,
 footer > .container > .row > .col-12.link_footer {
-    line-height: 45px;
+    line-height: 35px;
 }
 
 .sie_logo {
@@ -665,10 +665,5 @@ footer > .container > .row > .col-12.link_footer {
     footer > .container > div:last-child > .col-12 > p {
         font-size: 8px;
     }
-
-    /* .mrgn_btm_m {
-        margin-bottom: 20px;
-    } */
 }
 /* /Responsive */
-
